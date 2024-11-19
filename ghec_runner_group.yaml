@@ -40,7 +40,6 @@ paths:
             application/json:
               schema:
                 "$ref": "#/components/schemas/runner-groups-enterprise"
-              examples: {}
       x-github:
         enabledForGitHubApps: false
         githubCloudOnly: true
@@ -115,7 +114,6 @@ paths:
             application/json:
               schema:
                 "$ref": "#/components/schemas/runner-groups-enterprise"
-              examples: {}
       x-github:
         enabledForGitHubApps: false
         githubCloudOnly: true
