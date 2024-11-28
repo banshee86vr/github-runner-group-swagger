@@ -281,6 +281,10 @@ paths:
         category: actions
         subcategory: self-hosted-runner-groups
 components:
+  securitySchemes:
+    accessToken:
+      type: http
+      scheme: bearer
   schemas:
     runner-groups-org:
       type: object
